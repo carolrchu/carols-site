@@ -1,14 +1,32 @@
 
 <template>
+
   <div class="page1">
-    <ul class="nav justify-content-end">
+
+     <button class="btn btn-default" onclick="window.location.href='/page2'" style="margin-top: 3%; margin-bottom:0;">
+       <img src="@/assets/images/chu.png" width="25%" /></button>
+
+<ul class="nav flex-column">
   <li class="nav-item">
-    <a class="nav-style" href="#">resume</a>
+    <a class="nav-vertical1" href="#">one</a>
   </li>
   <li class="nav-item">
-    <a class="nav-style" href="#">about</a>
+    <a class="nav-vertical2" href="#">two</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-vertical3" href="#">three</a>
   </li>
 </ul>
+
+  <ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-style1" href="#">resume</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-style2" href="#">about</a>
+  </li>
+</ul>
+
     <div class="container">
       <div class="row">
         <div class="col-10 mx-auto text-center">
